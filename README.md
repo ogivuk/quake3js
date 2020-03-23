@@ -1,6 +1,21 @@
 # quake3js
 
-Run your own local Quake3JS.com server as a Docker container. You can run it on your local x64 Linux based machine or even on your Raspberry Pi.
+Run your own local Quake3JS.com server as a Docker container.
+
+You can run it on your local x64 Linux based machine or even on your Raspberry Pi.
+
+Supported architectures:
+
+* the image supports multiple architectures: `x86-64` and `arm32`
+* the docker manifest is used for multi-platform awareness
+* by simply pulling or running `ogivuk/quake3js:latest`, the correct image for your architecture will be retreived
+
+| Tag | Transmission Version and Architecture |
+| :--- | :----    |
+| `:latest` | latest version (0.9) supporting both `x64` and `arm32v7` architectures |
+| `:0.9` | version 0.9 supporting both `x64` and `arm32v7` architectures |
+| `:0.9-x64` | version 0.9 for `x64` architecture |
+| `:0.9-arm32v7` | version 0.9 for `arm32v7` architecture |
 
 ## Quick Start
 
