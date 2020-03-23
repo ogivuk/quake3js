@@ -4,7 +4,7 @@ Run your own local Quake3JS.com server as a Docker container. You can run it on 
 
 ## Quick Start
 
-1. [_First time only_] Prepare the environment
+1. _First time only_: Prepare the environment
     1. prepare a directory for the configurable files mounted to the container later:
 
         ```bash
@@ -24,7 +24,7 @@ Run your own local Quake3JS.com server as a Docker container. You can run it on 
       * your public IP address (or Domain Name), if you want the server to be also accessible from the public network. If the host is behind a router (in a local network), you also need to set up the port forwarding on your router for the ports `80` and `27960`.
       * this hostname or the IP address will be used later for accessing the server (port 80), e.g., for the hostname `myquake3js` it will be `http://myquake3js`
 
-2. [_Recommended_] Edit the server configuration:
+2. _Recommended_: Edit the server configuration:
 
     * edit the `server.cfg` file to configure the server
     * it is **highly** recommended to change the default `rconpassword` as this password is used to remotely administer the server
@@ -71,6 +71,7 @@ Here are explanations of the configuration options in `server.cfg`. The server n
 | seta g_inactivity 3000 | number of seconds before an inactive player is kicked |
 | seta g_forcerespawn 0 | forces players to respawn: 0 - off, 1 - on |
 | seta rconpassword "quakejs" | sets the password to allow client control of the server |
+
 The file ends with a few lines for setting up a map rotation, e.g.,:
 
 ```config
