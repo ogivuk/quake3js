@@ -34,8 +34,8 @@ Supported architectures:
     2. download the configurable files:
 
         ```bash
-        wget https://github.com/ognjenvukovic/quake3js/blob/master/server.cfg
-        wget https://github.com/ognjenvukovic/quake3js/blob/master/index.html
+        wget https://github.com/ogivuk/quake3js/blob/master/server.cfg
+        wget https://github.com/ogivuk/quake3js/blob/master/index.html
         ```
 
     3. edit `index.html` line 82 and replace `todo_change_me` in 2 places with the hostname or with your public IP address:
@@ -145,7 +145,7 @@ For most users the provided image and the steps above will be enough. However, i
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/ognjenvukovic/quake3js.git
+    git clone https://github.com/ogivuk/quake3js.git
     ```
 
 2. Build from the Dockerfile:
