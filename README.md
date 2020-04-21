@@ -1,6 +1,6 @@
 # quake3js
 
-Run your own local Quake3JS.com server as a Docker container.
+Run your own local QuakeJS.com server as a Docker container.
 
 You can run it on your local x64 Linux based machine or even on your Raspberry Pi.
 
@@ -72,6 +72,7 @@ Supported architectures:
             --mount type=bind,src=$(pwd)/index.html,dst=/var/www/html/index.html \
             ogivuk/quake3js
         ```
+## Supporting Information
 
 ### Server.cfg
 
