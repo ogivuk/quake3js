@@ -72,6 +72,7 @@ Supported architectures:
             --mount type=bind,src=$(pwd)/index.html,dst=/var/www/html/index.html \
             ogivuk/quake3js
         ```
+
 ## Supporting Information
 
 ### Server.cfg
