@@ -4,6 +4,10 @@ Run your own local Quake3JS.com server as a Docker container.
 
 You can run it on your local x64 Linux based machine or even on your Raspberry Pi.
 
+The provided image is open-source and built from scratch with the goal to
+enable you to run a stateless and an immutable container,
+according to the best practices.
+
 Supported architectures:
 
 * the image supports multiple architectures: `x86-64` and `arm32`
@@ -39,7 +43,7 @@ Supported architectures:
       * your public IP address (or Domain Name), if you want the server to be also accessible from the public network. If the host is behind a router (in a local network), you also need to set up the port forwarding on your router for the ports `80` and `27960`.
       * this hostname or the IP address will be used later for accessing the server (port 80), e.g., for the hostname `myquake3js` it will be `http://myquake3js`
 
-2. _Recommended_: Edit the server configuration:
+2. _Recommended_: Edit the server configuration
 
     * edit the `server.cfg` file to configure the server
     * it is **highly** recommended to change the default `rconpassword` as this password is used to remotely administer the server
